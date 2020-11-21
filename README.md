@@ -25,17 +25,15 @@ In this way we can use our storage device with small storage capability to store
 - Choose Y/N to run or exit
 - Select 1,2 or 3 accordingly.
 - Enter the text file name to compress, during De-compression no input is needed it uses the previous compressed file to reterive 
-  eg. file2, file3, file4, file5 ,file6 and file7 are the sampple text files given along with this project to test
+  'eg. file2, file3, file4, file5 ,file6 and file7' are the sampple text files given along with this project to test
 
 - [x] NOTE::
 De-Compression will only takes place after Compression is done, So be carefull.
 
 After exiting the program you will get 3 new files::
-'''
 1. Compressed file
 2. De_Compressed file
 3. Encrypted key
-'''
 
 To Delete these abobe 3 files use command:
 > ./clean
