@@ -19,12 +19,12 @@ So by reversing this procedure we could revive all our original data from the co
 In this way we can use our storage device with small storage capability to store large amount of data.
 
 # How to execute the project-
-> ./test
-
 This command will start the compilation all the object files linked with it.
+> ./test
 
 - Choose Y/N to run or exit
 - Select 1,2 or 3 accordingly.
+- Enter the text file name to compress, during De-compression no input is needed it uses the previous compressed file to reterive
 
 NOTE: De-Compression will only takes place after Compression is done, So be carefull.
 
