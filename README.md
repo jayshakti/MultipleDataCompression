@@ -20,7 +20,8 @@ In this way we can use our storage device with small storage capability to store
 
 # How to execute the project-
 > ./test
-This will compile all the object files linked with it.
+
+This command will start the compilation all the object files linked with it.
 
 - Choose Y/N to run or exit
 - Select 1,2 or 3 accordingly.
@@ -32,5 +33,5 @@ _1. Compressed file
 _2. De_Compressed file
 _3. Encrypted key
 
-To Delete these abobe 3 files use command
+To Delete these abobe 3 files use command:
 > ./clean
