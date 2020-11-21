@@ -1,7 +1,7 @@
-#Project Name :: MultipleDataCompression
+# Project Name :: MultipleDataCompression
 ========================================
 
-##MULTIPLE DATA COMPRESSION AND EXPANSION USING ITERATIVE TECHNIQUE
+## MULTIPLE DATA COMPRESSION AND EXPANSION USING ITERATIVE TECHNIQUE
 --------------------------------------------------------------------
 
 Since we know that in almost all the devices there is memory constraint. So there should be judicious use of the available memory. So how to compress and expand the compressed data using iterative technique and save memory is implemented in this project.
@@ -24,7 +24,8 @@ This command will start the compilation all the object files linked with it.
 
 - Choose Y/N to run or exit
 - Select 1,2 or 3 accordingly.
-- Enter the text file name to compress, during De-compression no input is needed it uses the previous compressed file to reterive
+- Enter the text file name to compress, during De-compression no input is needed it uses the previous compressed file to reterive 
+  eg. file2, file3, file4, file5 ,file6 and file7 are the sampple text files given along with this project to test
 
 NOTE: De-Compression will only takes place after Compression is done, So be carefull.
 
@@ -35,3 +36,6 @@ _3. Encrypted key
 
 To Delete these abobe 3 files use command:
 > ./clean
+
+- [x] Caution::
+If a text file consists of more tha 127 unique character then this compressor do not handle that file.
