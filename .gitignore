@@ -1,0 +1,6 @@
+*.c,v
+*.h,v
+*.swn
+*.swo
+*.swp
+clean
