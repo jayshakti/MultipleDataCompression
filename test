@@ -1,0 +1,56 @@
+#! /bin/bash
+
+
+for file in $(ls *.h) $(ls *.c)
+do
+	ci $file
+done
+for file in $(ls *.h,v) $(ls *.c,v)
+do
+	co $file
+done
+
+checkout()
+{
+	
+	read -n1 -p "Do you want to edit further ??? (y/n)" resp
+	echo
+	if [ $resp = 'y' ]
+	then
+		for file in $(ls *.h) $(ls *.c)
+		do
+			co -l $file
+		done
+	elif [ $resp = 'n' ]
+	then
+		echo "Good bye!!"
+	else
+		echo "Wronge Choice"
+		checkout
+	fi
+}
+
+if ( make )
+then
+	while :
+	do
+		read -n1 -p "Compiled Successfully.Do you want to RUN ???(y/n)" resp
+		echo
+		if [ $resp = 'y' ]
+		then
+			./mdc
+			break
+		elif [ $resp = 'n' ]
+		then	
+			checkout	#### calling checkout() function to checkout in locked mode
+			break
+		else
+			echo "Wronge Choice"
+		fi
+	done
+else
+	echo  "Compillation Failed"
+fi
+
+rm *.o			#### calling remove func() to remove all ".o" files
+rm mdc
