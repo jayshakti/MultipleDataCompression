@@ -18,5 +18,19 @@ So by reversing this procedure we could revive all our original data from the co
 
 In this way we can use our storage device with small storage capability to store large amount of data.
 
-# Commands to execute the project
-- ./test
+# How to execute the project-
+> ./test
+This will compile all the object files linked with it.
+
+- Choose Y/N to run or exit
+- Select 1,2 or 3 accordingly.
+
+NOTE: De-Compression will only takes place after Compression is done, So be carefull.
+
+After exiting the program you will get 3 new files::
+_1. Compressed file
+_2. De_Compressed file
+_3. Encrypted key
+
+To Delete these abobe 3 files use command
+> ./clean
