@@ -1,8 +1,8 @@
-MultipleDataCompression
-=======================
+#Project Name :: MultipleDataCompression
+========================================
 
-MULTIPLE DATA COMPRESSION AND EXPANSION USING ITERATIVE TECHNIQUE
------------------------------------------------------------------
+##MULTIPLE DATA COMPRESSION AND EXPANSION USING ITERATIVE TECHNIQUE
+--------------------------------------------------------------------
 
 Since we know that in almost all the devices there is memory constraint. So there should be judicious use of the available memory. So how to compress and expand the compressed data using iterative technique and save memory is implemented in this project.
 
