@@ -31,9 +31,11 @@ In this way we can use our storage device with small storage capability to store
 De-Compression will only takes place after Compression is done, So be carefull.
 
 After exiting the program you will get 3 new files::
-_1. Compressed file
-_2. De_Compressed file
-_3. Encrypted key
+'''
+1. Compressed file
+2. De_Compressed file
+3. Encrypted key
+'''
 
 To Delete these abobe 3 files use command:
 > ./clean
